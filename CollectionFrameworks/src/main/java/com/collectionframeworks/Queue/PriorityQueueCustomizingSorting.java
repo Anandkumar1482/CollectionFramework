@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 
 public class PriorityQueueCustomizingSorting {
 	public static void main(String[] args) {
-		PriorityQueue pq = new PriorityQueue(15, new MyComparato());
+		PriorityQueue<String> pq = new PriorityQueue<String>(15, new MyComparato());
 		pq.offer("madhu");
 		pq.offer("ashok");
 		pq.offer("sri kanth");
@@ -24,6 +24,6 @@ class MyComparato implements Comparator<Object> {
 		String s1 = (String) obj1;
 		String s2 = (String) obj2;
 
-		return -s1.compareTo(s2);
+		return s1.compareTo(s2);
 	}
 }

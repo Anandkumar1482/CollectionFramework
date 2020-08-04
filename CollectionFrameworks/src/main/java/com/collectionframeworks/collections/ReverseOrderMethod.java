@@ -19,7 +19,7 @@ public class ReverseOrderMethod {
 		System.out.println(l);
 		Comparator<Object> c1 = Collections.reverseOrder(new MyC());
 		System.out.println("reverse Order Of Comparator");
-		System.out.println(c1.toString());
+		System.out.println(c1);
 
 	}
 

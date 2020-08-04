@@ -16,11 +16,13 @@ public class MapWithIterater {
 		h.put("mahati", 105);
 		h.put("suresh", 106);
 		System.out.println(h);
+		
 		Set<Entry<String, Integer>> set1 = h.entrySet();
 		System.out.println(set1);
 		
 		// if we want get object one by one then cursor is required.
 		Set<Entry<String, Integer>> s1 = h.entrySet();
+		
 		System.out.println("***** the objects are getting one by one from the Map ******");
 		Iterator<Entry<String, Integer>> itr = s1.iterator();
 		while (itr.hasNext()) {

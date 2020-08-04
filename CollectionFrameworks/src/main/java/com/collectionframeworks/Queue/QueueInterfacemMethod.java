@@ -19,6 +19,7 @@ public class QueueInterfacemMethod {
 		}
 		System.out.println(queue);// [0, 2, 1, 6, 3, 4, 5, 200, 7, 8, 9]
 		System.out.println(queue.poll());// 0 remove head element
+		System.out.println(queue);
 		System.out.println(queue.remove());// 1 remove head elelment
 		System.out.println(queue);// [2, 3, 4, 6, 8, 9, 5, 200, 7]
 	}
