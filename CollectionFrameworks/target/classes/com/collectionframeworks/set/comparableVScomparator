@@ -1,0 +1,35 @@
+Note: If we are depending on default natural sorting order then the objects should be
+“homogeneous and comparable” otherwise we will get ClassCastException. If we are defining
+our own sorting by Comparator then objects “need not be homogeneous and comparable”.
+*******************************************************************
+Comparable vs Comparator:
+********************************************************************
+For predefined Comparable classes default natural sorting order is already available if
+we are not satisfied with default natural sorting order then we can define our own
+customized sorting order by Comparator.
+For predefined non Comparable classes [like StringBuffer] default natural sorting order
+is not available we can define our own sorting order by using Comparator object.
+For our own classes [like Customer, Student, and Employee] we can define default
+natural sorting order by using Comparable interface. The person who is using our class,
+if he is not satisfied with default natural sorting order then he can define his own sorting
+order by using Comparator object.
+
+
+Compression of Comparable and Comparator?
+Comparable
+Comparator
+1) Comparable meant for default natural sorting order.
+1) Comparator meant for customized sorting order.
+2) Present in java.lang package.
+2) Present in java.util package.
+3) Contains only one method.
+	compareTo() method.
+3) Contains 2 methods.
+	Compare() method.
+	Equals() method.
+4) String class and all wrapper Classes implements Comparable and StringBuffer Class is not implements  Comparable interface.
+4) No predefined class implements Comparator interface
+only two classes are implements Comparator 
+*********************************************
+Collator
+Rule Based Collator

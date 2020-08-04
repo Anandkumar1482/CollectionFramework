@@ -1,0 +1,9 @@
+
+Collection(I)
+**********************
+Collection is an interface.If we want to represent a group of “individual objects” as a single entity then we should go for collection.
+
+Collections(Class)
+***************************************
+Collections is an utility class present in java.util package to define several Utility methods for the collection objects.
+like: sorting,searching etc.

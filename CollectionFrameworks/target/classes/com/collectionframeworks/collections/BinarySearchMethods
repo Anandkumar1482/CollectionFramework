@@ -1,0 +1,8 @@
+conclusions
+************************************
+1)search method is internally will use binarySearch algaritham
+2)successful search returns index value and un successful search returns insertion point.
+3)insertion point is the location where we can place target elements in the sorting order.
+4)before calling binarySearch method compulsary  list should be sorted.otherwise we will get 
+predicatable results.
+5)if the list is sorted according to the Comparator object at the time of search operation we provide same object for Comparator object otherwise we will get unpredicatble results. 

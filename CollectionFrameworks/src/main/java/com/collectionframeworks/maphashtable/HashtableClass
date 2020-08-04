@@ -1,0 +1,15 @@
+Hashtable:
+*************************************************************
+1) The underlying data structure is Hashtable.
+2) Insertion order is not preserved and it is based on hash code of the keys.
+3) Heterogeneous objects are allowed for both keys and values.
+4) Null key (or) null value is not allowed otherwise we will get NullPointerException.
+5) Duplicate keys are not allowed but values can be duplicated.
+Constructors:
+***************************************************************
+1) Hashtable h=new Hashtable();
+	Creates an empty Hashtable object with default initialcapacity 11 and default fill ratio
+	0.75.
+2) Hashtable h=new Hashtable(int initialcapacity);
+3) Hashtable h=new Hashtable(int initialcapacity,float fillratio);
+4) Hashtable h=new Hashtable (Map m);

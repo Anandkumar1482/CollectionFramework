@@ -1,0 +1,9 @@
+reverse() VS reverseOrder()
+********************************************
+reverse():
+we can use reverse() to reverse oder of elements
+
+
+reverseOrder():
+*************************************************
+we can use reverseOrder() to get reversed Comparator

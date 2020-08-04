@@ -1,0 +1,6 @@
+Null acceptance:
+*********************************************************************
+1)For the empty TreeSet as the 1 st element “null” insertion is possible but after inserting
+that null if we are trying to insert any other we will get NullPointerException.
+2)For the non empty TreeSet if we are trying to insert null then we will get
+NullPointerException.

@@ -1,0 +1,34 @@
+NavigableSet:
+1) It is the child interface of SortedSet.
+2) It provides several methods for navigation purposes.
+
+NavigableSet interface defines the following methods.
+ceiling(e);
+It returns the lowest element which is >=e.
+higher(e);
+It returns the lowest element which is >e.
+floor(e);
+It returns highest element which is <=e.
+lower(e);
+It returns height element which is <e.
+pollFirst ();
+Remove and return 1 st element.
+pollLast ();
+Remove and return last element.
+descendingSet ();
+Returns SortedSet in reverse order.
+
+******************************************************
+NavigableMap:
+It is the child interface of SortedMap and it defines several methods for navigation
+purpose.
+
+NavigableMap interface defines the following methods.
+1) ceilingKey(e);
+2) higherKey(e);
+3) floorKey(e);
+4) lowerKey(e);
+5) pollFirstEntry();
+6) pollLastEntry();
+7) descendingMap();
+

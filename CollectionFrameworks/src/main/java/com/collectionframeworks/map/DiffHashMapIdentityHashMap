@@ -1,0 +1,30 @@
+IdentityHashMap:
+****************************************************************************
+1) It is exactly same as HashMap except the following differences.
+2) In the case of HashMap JVM will always use “.equals()”method to identify duplicate
+keys.
+3) But in the case of IdentityHashMap JVM will use== (double equal operator) to identify
+duplicate keys.
+Example:
+*******************************************************************************
+import java.util.*;
+class HashMapDemo
+{
+public static void main(String[] args)
+{
+HashMap m=new HashMap();
+Integer i1=new Integer(10);
+Integer i2=new Integer(10);
+m.put(i1,"pavan");
+m.put(i2,"kalyan");
+System.out.println(m);
+}
+}
+*************************************************************************************
+In the above program i1 and i2 are duplicate keys because i1.equals(i2) returns true.
+In the above program if we replace HashMap with IdentityHashMap then i1 and i2 are
+not duplicate keys because i1==i2 is false hence in this case the output is {10=pavan,
+{10=kalyan}.
+System.out.println(m.get(10));//null
+10==i1------false
+10==i2------false

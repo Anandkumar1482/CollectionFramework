@@ -1,0 +1,13 @@
+Comparable interface:
+************************************************************
+ Comparable interface present in java.lang package and contains only one method
+compareTo() method.
+*************************************************************
+public int compareTo(Object obj);
+Example:
+************************
+obj1.compareTo(obj2);
+****************************
+1)returns -ve iff obj1 has to come before obj2
+2)returns +ve iff obj1 has to come after obj2
+3)returns 0 iff both the objects are equal 
